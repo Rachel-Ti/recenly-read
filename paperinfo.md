@@ -2,7 +2,7 @@
   - [SC](#sc)
     - [2022](#2022)
       - [1.SFS: Smart OS Scheduling for Serverless Functions]
-      (#1SFS: Smart OS Scheduling for Serverless Functions)
+        (#1.SFS: Smart OS Scheduling for Serverless Functions)
     - [2021](#2021)
       - [1.Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference]
         (#1Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference)
@@ -12,8 +12,8 @@
       (#1On the Joint Optimization of Function Assignment and Communication Scheduling toward Performance Efficient Serverless Edge Computing)
   - [CCGridW](#CCGridW)
     - [2022](#2022)
-    - [1.Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling]
-      (#1Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling)
+      - [1.Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling]
+        (#1Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling)
 - [edge](#edge)
   - [ICWS](#icws)
     - [2022](#2022)
