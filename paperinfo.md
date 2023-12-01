@@ -1,8 +1,9 @@
 - [schedule](#schedule)
   - [SC](#sc)
     - [2022](#2022)
+      - [1.IceBreaker: Warming Serverless Functions Better with Heterogeneity](#1icebreaker-warming-serverless-functions-better-with-heterogeneity)
       - [1.SFS: Smart OS Scheduling for Serverless Functions]
-        (#1SFS: Smart OS Scheduling for Serverless Functions)
+      (#1SFS: Smart OS Scheduling for Serverless Functions)
     - [2021](#2021)
       - [1.Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference]
         (#1understanding, predicting and Scheduling Serverless Workloads under Partial Interference)
