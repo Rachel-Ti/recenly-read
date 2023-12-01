@@ -2,7 +2,7 @@
   - [SC](#sc)
     - [2022](#2022)
       - [1.SFS: Smart OS Scheduling for Serverless Functions]
-        (#1SFS: Smart OS Scheduling for Serverless Functions)
+      (#1SFS: Smart OS Scheduling for Serverless Functions)
     - [2021](#2021)
       - [1.Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference]
         (#1Understanding, Predicting and Scheduling Serverless Workloads under Partial Interference)
@@ -14,7 +14,7 @@
     - [2022](#2022)
     - [1.Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling]
       (#1Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling)
-<!-- - [edge](#edge)
+- [edge](#edge)
   - [ICWS](#icws)
     - [2022](#2022)
       - [1.A Declarative Approach to Topology-Aware Serverless Function-Execution Scheduling]
@@ -24,7 +24,7 @@
       - [1.A Prototype for QKD-secure Serverless Computing with ETSI MEC]
         (#1A Prototype for QKD-secure Serverless Computing with ETSI MEC)
       - [2.Stateless or stateful FaaS? I’ll take both!]
-        (#2Stateless or stateful FaaS? I’ll take both!) -->
+        (#2Stateless or stateful FaaS? I’ll take both!)
   
 
 # schedule  
