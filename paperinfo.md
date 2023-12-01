@@ -10,6 +10,11 @@
     - [2022](#2022)
       - [1.On the Joint Optimization of Function Assignment and Communication Scheduling toward Performance Efficient Serverless Edge Computing]
       (#1On the Joint Optimization of Function Assignment and Communication Scheduling toward Performance Efficient Serverless Edge Computing)
+  - [CCGridW]
+    - [2022](#2022)
+    - [1.Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling]
+      (1Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling)
+
 
 - [edge](#edge)
   - [ICWS](#icws)
@@ -65,6 +70,19 @@
 
 **摘要：**
 无服务器边缘计算作为部署复杂应用的有效载体，其中包含相互依赖的功能，其分配决策对应用性能影响很大。尽管类似问题已经得到了广泛研究，但现有方法都没有考虑通信风格的多样性，这在无服务器计算中是特别引入的，对性能效率也有很大影响。我们比较了两种通信风格，分别称为直接传递和远程存储，用于在函数之间传输中间数据。我们发现，没有一种通信风格可以在所有场景中占据主导地位，最优选择取决于多个因素，如扇出度、数据大小和网络带宽。因此，如何为每个函数间通信链选择适当的通信风格，以及函数分配决策，对应用性能至关重要。为此，我们提出了一种基于优先级的分配和选择（PASS）算法，综合考虑函数分配和通信风格选择。我们对PASS算法的近似比进行了理论分析，并在实际应用上进行了大量实验，结果显示，与最先进的方法相比，PASS平均可以将完成时间减少24.1%。
+
+
+## CCGridW
+>  International Symposium on Cluster, Cloud and Internet Computing Workshops(CCGridW)。但IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)(CCGrid)是计算机体系结构/并行与分布计算/存储系统CCF C类会议。
+
+### 2022
+
+#### 1.Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling
+
+[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10181224)
+
+**摘要：**
+在无服务器架构中，函数并未充分利用分配的内存。这种内存过度分配提高了节点利用率，但浪费了资源，导致了冷启动和延迟问题。本文提出了一种针对无服务器架构的细粒度调度方法，旨在解决内存过度分配问题并提高数据局部性。该方法估算每个函数使用的内存量，以便在同一节点上调度相似的函数。因此，它减少了每个节点的使用，并将在单个节点内保持状态。我们通过现有的FaaS应用和实际数据对我们的方法进行了评估。
 
 
 
