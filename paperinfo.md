@@ -1,7 +1,7 @@
 - [schedule](#schedule)
   - [SC](#sc)
     - [2022](#2022)
-      - [1.SFS: Smart OS Scheduling for Serverless Functions](#1sfs:-smart-os-scheduling-for-serverless-functions)
+      - [1.SFS: Smart OS Scheduling for Serverless Functions](#1sfs-smart-os-scheduling-for-serverless-functions)
     - [2021](#2021)
       - [1.Understanding Predicting and Scheduling Serverless Workloads under Partial Interference](#1understanding-predicting-and-scheduling-serverless-workloads-under-partial-interference)
   - [IWQoS](#IWQoS)
