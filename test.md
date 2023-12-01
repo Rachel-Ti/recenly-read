@@ -1,8 +1,7 @@
 - [Schedule](#schedule)
   - [ICWS](#icws)
     - [2022](#2022)
-      - [1.A Declarative Approach to Topology-Aware Serverless Function-Execution Scheduling]
-        (#1A Declarative Approach to Topology-Aware Serverless Function-Execution Scheduling)
+      - [1.A Declarative Approach to Topology-Aware Serverless Function-Execution Scheduling](#1A Declarative Approach to Topology-Aware Serverless Function-Execution Scheduling)
         
 
 # Schedule
