@@ -10,12 +10,10 @@
     - [2022](#2022)
       - [1.On the Joint Optimization of Function Assignment and Communication Scheduling toward Performance Efficient Serverless Edge Computing]
       (#1On the Joint Optimization of Function Assignment and Communication Scheduling toward Performance Efficient Serverless Edge Computing)
-  - [CCGridW]
+  - [CCGridW](#CCGridW)
     - [2022](#2022)
     - [1.Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling]
       (1Optimizing Memory Allocation in a Serverless Architecture through Function Scheduling)
-
-
 - [edge](#edge)
   - [ICWS](#icws)
     - [2022](#2022)
