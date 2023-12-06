@@ -160,6 +160,8 @@ GitHub - ccicconetti/etsi-mec-qkd: Documents and software about the integration 
 **摘要：**
 许多新兴的applications 希望实现"近实时" 处理和响应，这超出了当今云服务的保证范围，需要边缘处理。无服务器计算是一种特别有前景的边缘环境架构，因为它可以通过精确地根据应用需求缩放资源来提高效率。随着边缘应用程序变得越来越复杂，由更简单的功能或 microservices 子集组成，需要支持更复杂的功能拓扑结构，这些结构可以用有向无环图（DAGs）表示。然而，在无服务器平台上运行 DAG 函数会带来新的挑战，涉及连接、实例化和调度函数沙箱。在本文中，我们探讨了如何扩展基于 Wasm 的无服务器运行时 Sledge 支持 DAG 函数。Sledge 的独特设计允许在不到 30μsec 的每个函数调用中启动一个新的沙箱，从而减轻了可能导致 DAG 性能下降的冷启动问题。增强型 Sledge 框架提供了一个快速内存通信通道，通过 DAG 传播数据，而不是依靠昂贵的共享存储进行协调。我们考虑了具有服务级别目标的 DAG，由其执行截止日期定义。为确保 DAG 满足其性能要求，我们考虑、分析和比较了两种 deadline-aware 可插拔调度程序（我们在 Sledge 中实现），这些调度程序适用于各种真实负载。
 
+[pdf](https://dl.acm.org/doi/pdf/10.1145/3517206.3526274)
+
 ## Living on the Edge: Serverless Computing and the Cost of Failure Resiliency
 >IEEE Workshop on Local Metropolitan Area Networks (LANMAN)（2019）
 
