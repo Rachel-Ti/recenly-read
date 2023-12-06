@@ -19,6 +19,8 @@
       - [1.A Prototype for QKD-secure Serverless Computing with ETSI MEC](#1a-prototype-for-qkd-secure-serverless-computing-with-etsi-mec)
       - [2.Stateless or stateful FaaS? I’ll take both!](#2stateless-or-stateful-faas?-i’ll-take-both!)
   
+- [cold start](#cold-start)
+  -[Towards Serverless Optimization with In-place Scaling](#towards-serverless-optimization-with-in-place-scaling)
 
 # schedule  
 
@@ -135,3 +137,36 @@ GitHub - ccicconetti/etsi-mec-qkd: Documents and software about the integration 
 
 [code](https://github.com/ccicconetti/serverlessonedge)
 
+## Topology-aware Serverless Function-Execution Scheduling
+
+**摘要：**
+云边缘无服务器应用程序或跨多个区域的无服务器部署需要管理功能的调度，以满足其功能约束或避免性能下降。例如，可能需要将功能分配给可以访问专用资源的特定私有(边缘)节点，或者分配给具有低延迟的节点以访问某个数据库，以减少应用程序的总体延迟。最先进的无服务器平台不支持在功能调度上直接实现拓扑约束。给定tAPP脚本，兼容的无服务器调度器可以强制执行不同的共存拓扑约束，而不需要临时平台部署。我们通过实现一个基于tap的无服务器平台，作为Apache OpenWhisk无服务器平台的扩展，来证明我们的方法是可行的。我们表明，与普通的OpenWhisk相比，我们的扩展不会对通用的、非拓扑绑定的无服务器场景的性能产生负面影响，而会提高拓扑绑定场景的性能。
+
+[code](https://github.com/mattrent/openwhisk-deploy-kube)
+# cold start
+## Towards Serverless Optimization with In-place Scaling
+
+**摘要：**
+无服务器计算由于其成本效率、易于部署和增强的可伸缩性而越来越受欢迎。但是，在无服务器环境中，只有在接收到请求后才启动服务器，从而增加了响应时间。这种延迟通常被称为冷启动问题。在本研究中，我们探讨了Kubernetes v1.27中发布的就地扩展特性，并检查了它对无服务器计算的影响。我们的实验结果显示了请求延迟的改进，与传统的请求延迟相比，不同工作负载的请求延迟减少了1.16到18.15倍
+[code](https://github.com/ColinIanKing/stress-ng)
+
+
+# edge
+
+## Towards Efficient Processing of Latency-Sensitive Serverless DAGs at the Edge
+
+> European Conference on Computer Systems (EuroSys)（2022）CCF B
+
+**摘要：**
+许多新兴的applications 希望实现"近实时" 处理和响应，这超出了当今云服务的保证范围，需要边缘处理。无服务器计算是一种特别有前景的边缘环境架构，因为它可以通过精确地根据应用需求缩放资源来提高效率。随着边缘应用程序变得越来越复杂，由更简单的功能或 microservices 子集组成，需要支持更复杂的功能拓扑结构，这些结构可以用有向无环图（DAGs）表示。然而，在无服务器平台上运行 DAG 函数会带来新的挑战，涉及连接、实例化和调度函数沙箱。在本文中，我们探讨了如何扩展基于 Wasm 的无服务器运行时 Sledge 支持 DAG 函数。Sledge 的独特设计允许在不到 30μsec 的每个函数调用中启动一个新的沙箱，从而减轻了可能导致 DAG 性能下降的冷启动问题。增强型 Sledge 框架提供了一个快速内存通信通道，通过 DAG 传播数据，而不是依靠昂贵的共享存储进行协调。我们考虑了具有服务级别目标的 DAG，由其执行截止日期定义。为确保 DAG 满足其性能要求，我们考虑、分析和比较了两种 deadline-aware 可插拔调度程序（我们在 Sledge 中实现），这些调度程序适用于各种真实负载。
+
+## Living on the Edge: Serverless Computing and the Cost of Failure Resiliency
+>IEEE Workshop on Local Metropolitan Area Networks (LANMAN)（2019）
+
+>University of California | George Washington University
+
+**摘要：**
+
+无服务器计算平台越来越受欢迎，因为它们允许以高度可扩展和成本效益的方式轻松部署服务。通过实现基于容器的按需启动，这些平台可以实现良好的复用，并自动响应流量增长，使它们在资源稀缺的边缘云数据中心中特别受欢迎。边缘云数据中心也引起了人们的关注，因为它们承诺提供响应式、低延迟的共享计算和存储资源。将无服务器能力带到边缘云数据中心必须继续实现低延迟和可靠性的目标。然而，无服务器计算提供的可靠性保证是薄弱的，节点故障会导致请求被丢弃或执行多次。因此，无服务器计算只提供了一个尽力而为的基础设施，应用程序开发人员负责在更高的层次上实现更强的可靠性保证。当前提供更强语义（如“恰好一次”保证）的方法可以集成到无服务器平台中，但它们在延迟和资源消耗方面代价高昂。随着边缘云服务向需要可靠性和性能强保证的应用程序（如自动驾驶控制）发展，这些方法可能不再足够。在本文中，我们评估了提供不同可靠性保证的延迟、吞吐量和资源成本，重点关注这些新兴的边缘云平台和应用程序。
+
+[pdf](https://cz5waila03cyo0tux1owpyofgoryroob.aminer.cn/ED/56/68/ED5668ADCBF098782D3CBF4E83C7931B.pdf)
