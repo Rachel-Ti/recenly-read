@@ -1,5 +1,7 @@
 - [schedule](#schedule)
   - [ASPLOS](#asplos)
+    - [2022](#2022)
+    - [2021](#2021)
   - [SC](#sc)
     - [2022](#2022)
       - [1.SFS: Smart OS Scheduling for Serverless Functions](#1sfs-smart-os-scheduling-for-serverless-functions)
@@ -26,6 +28,14 @@
 # schedule  
 
 ## ASPLOS
+
+### 2022
+
+#### FaaSFlow: enable efficient workflow execution for function-as-a-service
+
+**摘要：**
+摘要：无服务器计算（Function-as-a-Service）通过在容器中运行函数（或Lambdas）来实现细粒度资源共享。依赖于数据的函数需要按照预定义的逻辑进行调用，这就是无服务器工作流。然而，我们的调查显示，在无服务器环境中，传统的主从基于工作流执行架构表现不佳。一个显著的开销来自于主节点上的工作流调度模式，在该模式下，函数在主节点上被触发并分配给从节点执行。此外，工件之间数据的移动也降低了吞吐量。因此，我们提出了一种适用于无服务器工作流执行的从节点工作流调度模式。根据设计，我们实现了FaaSFlow，以使无服务器环境下的工作流执行更加高效。此外，我们提出了一种可适应的存储库FaaStore，它使同一节点上的函数之间的数据传输快速，无需通过数据库。实验结果表明，FaaSFlow平均减轻了工作流调度开销的74.6%，最多减轻了数据传输开销的95%。当网络带宽波动时，FaaSFlow-FaaStore将吞吐量下降降低了23.0%，并能够将网络带宽利用率提高1.5X-4X。
+
 ### 2021
 #### Nightcore: efficient and scalable serverless computing for latency-sensitive, interactive microservices
 
